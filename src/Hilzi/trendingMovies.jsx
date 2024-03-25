@@ -8,7 +8,7 @@ function TrendingMovie() {
     const fetchTrendingData = async () => {
       try {
         const response = await fetch(
-          "https://api.themoviedb.org/3/trending/movie/day?language=en-US&API_KEY=${API_KEY}",
+          "https://api.themoviedb.org/3/trending/movie/day?language=en-US",
           {
             method: "GET",
             headers: {
