@@ -32,7 +32,7 @@ function TrendingMovie() {
   // Memastikan trendingData tidak null sebelum melakukan pemanggilan map
   return (
     <div className="container mx-auto px-4 text-justify">
-      <h1 className="text-3xl font-bold my-4">Trending Movies....</h1>
+      <h1 className="text-3xl font-bold my-4">Trending Movies</h1>
       {error && <p className="text-red-500">Error: {error.message}</p>}
       {trendingData && trendingData.results ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
