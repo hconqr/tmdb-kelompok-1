@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-const API_KEY = "81245f41e5d75d123eccb2435f66c44c";
-
 function TrendingMovie() {
   const [trendingData, setTrendingData] = useState(null);
   const [error, setError] = useState(null);
